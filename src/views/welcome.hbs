@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-4 mx-auto">
+    <div class="card mt-4 text-center">
+      <div class="card-header">
+        <h1 class="h4">
+          ¡Bienvenido {{nombre}} !
+        </h1>
+        <br>
+        <img src="{{foto}}" width="100" alt=""><br>
+        <a href="#">{{email}}</a>
+        <br>
+        <br>
+        <form action="/logout" method="POST">
+          <button type="submit" class="btn btn-danger btn-block btn-sm">LogOut</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
